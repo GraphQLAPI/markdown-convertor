@@ -16,6 +16,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.4|^8.0",
+        "erusev/parsedown": "^1.7",
         "getpop/engine": "^0.8"
     },
     "require-dev": {
@@ -26,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\MarkdownConvertor\\": "src"
+            "GraphQLAPI\\MarkdownConvertor\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\MarkdownConvertor\\": "tests"
+            "GraphQLAPI\\MarkdownConvertor\\": "tests"
         }
     },
     "scripts": {
